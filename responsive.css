@@ -1,0 +1,307 @@
+
+
+
+
+
+
+
+
+
+/* --------Responsieve 1330px Start-------- */
+@media (max-width: 1330px) {
+    .features {
+    
+        & .horizontal::after {
+            width: 100px;
+            right: -30%;
+            top: 40%;
+    
+        }
+    }/*Feature Section Part ------ */
+}
+
+@media (max-width: 1160px) {
+    .features {
+        & .horizontal::after {
+            width: 0;
+            right: -30%;
+            top: 40%;
+    
+        }/*Feature Section Part ------ */
+    }
+}
+
+
+
+/* --------Responsive 992px Start-------- */
+@media (max-width: 992px) {
+
+    .nav__logo img {
+        width: 100px;
+    }
+
+    .navBar .links,
+    .navBar .header__btns {
+        display: none;
+    }
+
+    .navBar .toggle__btn {
+        display: block;
+    }
+
+    .dropdown__menu {
+        display: block;
+    }
+
+    .header__content {
+
+        & h1 {
+            font-size: 36px;
+        }
+    }
+
+    .header__content {
+        width: 80%;
+        height: auto;
+    }
+
+    .select__bottom > .btn__2 {
+        display: none;
+    }
+
+    .select__bottom > .btn__1 {
+        width: fit-content;
+        font-size: 16px;
+        padding: 14px 38px;
+    }
+
+    .select__top {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 ;
+        
+        & select {
+            margin: 6px 0;
+            padding: 0 12px;
+            font-size: 16px;
+        }
+    }
+
+    .select__bottom {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }/*  Header Part Start-------- */
+
+
+
+    .details {
+        display: flex;
+        flex-direction: column;
+    }/*Compane Section Part ---- */
+
+    .feature__section {
+        height: 1200px;
+    }
+
+    .feature__details {
+        & h1 {
+            margin: 15px;
+        }
+    }
+
+    .features {
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+    }/*Feature Section Part ------ */
+
+    .sells__section {
+        grid-template-columns: repeat(1, 1fr);
+        height: 1500px;
+
+        & .left__side {
+            border: 0px solid #000;
+        }
+    }/* Sells Section Start ------ */
+
+
+    .commission__content {
+        justify-content: space-evenly;
+    
+        & h1 {
+            font-size: 68px;
+            line-height: 69.77px;
+            margin-top: 40px;
+        }
+    
+        & button {
+            width: 207px;
+            height: 62px;
+            padding: 10px 2px;
+            font-size: 26px;
+            cursor: pointer;
+        }
+    }/* ------ Commission Section Start ------ */
+
+    .footer__section {
+        height: auto;
+    }
+
+    .top__footer {
+        width: 70%;
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin: 7% auto 3% auto;
+    
+        & .footer__item {
+            & h3 {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 33.89px;
+                margin-bottom: 28px;
+            }
+    
+            & p {
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 24.2px;
+                text-align: left;
+                margin-bottom: 13px;
+            }
+        }
+    
+    }
+    
+    .bottom__footer {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.73px;
+    
+    } /* Fooetr Section Start ------ */
+    
+}
+
+/* --------Responsive 768px Start-------- */
+@media (max-width: 768px) {
+
+    .sells__section {
+        grid-template-columns: repeat(1, 1fr);
+        height: 2000px;
+
+        & .left__side {
+            border: 0px solid #000;
+        }
+        
+    }
+
+    .deSignS {
+        flex-direction: column;
+        
+        & img {
+            margin-bottom: 20px;
+        }
+
+        & h3 {
+            margin: 8px 0;
+            
+        }
+    }/* Sells Section Start ------ */
+}
+
+/* --------Responsive 567px Start-------- */
+@media (max-width: 567px) {
+
+    .dropdown__menu {
+        left: 2rem;
+        width: unset;
+    }
+
+    .main__section h1 {
+        font-size: 28px;
+     } /*Compane Section Part ---- */
+
+     .features {
+
+        & .card {
+            width: 270px;
+            padding: 0 0 20px 0;
+        }
+
+        & .card:nth-child(3){
+            margin-bottom: 50px;
+        }
+     }/*Feature Section Part ------ */
+
+
+     .commission__section{
+        height: 500px;
+     }
+     .commission__content {
+        justify-content: space-evenly;
+    
+        & h1 {
+            font-size: 40px;
+            line-height: 44px;
+            margin-top: 40px;
+            word-spacing: -2px;
+            letter-spacing: -2px;
+        }
+    
+        & button {
+            width: 188px;
+            height: 59px;
+            font-size: 20px;
+        }
+    }/* ------ Commission Section Start ------ */
+
+    .top__footer {
+    
+        & .footer__item {
+            & p {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: left;
+                margin-bottom: 13px;
+            }
+        }
+    
+    }
+    
+    .bottom__footer {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.73px;
+    
+    } /* Fooetr Section Start ------ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+ 
+
+}   
