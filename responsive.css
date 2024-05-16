@@ -218,6 +218,17 @@
 /* --------Responsive 567px Start-------- */
 @media (max-width: 567px) {
 
+    .header__section {
+        gap: 21px;
+    }
+
+    .header__content {
+
+        & h1 {
+            font-size: 26px;
+        }
+    }/* Header Part Start-------- */
+
     .dropdown__menu {
         left: 2rem;
         width: unset;
